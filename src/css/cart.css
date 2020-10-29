@@ -1,0 +1,144 @@
+.danh-sach-gio-hang{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.sanPham{
+    width: 800px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items:center;
+    padding: 5px;
+    padding-right: 20px;
+    margin-bottom: 3px;
+    margin-left: 190px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 7px #ddd;
+    border-radius: 5px;
+}
+.hinhAnh{
+    max-height: 90px;
+    max-width: 90px;
+}
+.tenSanPham{
+    height: fit-content;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.giaGoc{
+    height: fit-content;
+    flex-grow: 1;
+    color: black;
+    margin-right: 10px;
+}
+.giaBan{
+    height: fit-content;
+    flex-grow: 1;
+    color: brown;
+    margin-right: 10px;
+}
+.soLuong{
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.khungGia p:nth-child(1){
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+.khungGia p:nth-child(2){
+    font-size: 18px;
+    color: red;
+    font-weight: 600;
+}
+.nut-xoa{
+    height: 25px;
+    cursor: pointer;
+}
+.tongThanhTien{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.thanhTien{
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 990px;
+    text-align: center;
+}
+.tenSanPham{
+    padding-left: 20px;
+    font-size: 18px;
+    color: black;
+}
+.text{
+    color: black;
+}
+.form{
+	width: 50%;
+	padding: 40px;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 4px #ddd;
+	margin: auto;
+	margin-top: 50px;
+	color: black;
+	background-color: #fff;
+}
+.form input, 
+label, 
+button{
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+}
+.form input, button{
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.form button{
+	background-color: #F7442E;
+	color: #fff;
+	cursor: pointer;
+}
+.form button:hover{
+	background-color: #c53624;
+}
+.error {
+	font-size: 12px;
+	font-style: italic;
+	color: #c53624;
+	padding: 10px 5px;
+}
+::placeholder{
+	font-style: italic;
+}
+.thong-bao-gio-trong{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.thong-bao-gio-trong p{
+	color: black;
+	font-size: 18px;
+}
+.thong-bao-gio-trong img{
+	width: 300px;
+	height: 300px;
+}
+.nut-mua-tiep{
+	color: #fff;
+	border-radius: 5px;
+	padding: 2px;
+	background-color: #203365;
+	cursor: pointer;
+}

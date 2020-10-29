@@ -1,0 +1,58 @@
+#them-san-pham {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    /* box-shadow: Ngang: 2px, Dọc: 2px, Viền mờ: 5px */
+    box-shadow: 2px 2px 5px #ddd;
+  }
+  
+  #them-san-pham label,
+  input {
+    width: 100%;
+    display: block;
+  }
+  
+  #them-san-pham label {
+    margin-top: 20px;
+  }
+  
+  #them-san-pham input {
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #them-san-pham button {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+    background-color: #F7442E;
+    cursor: pointer;
+  }
+  
+  #them-san-pham button:hover {
+    background-color: #c53624;
+  }
+  
+  .box-them {
+    width: 500px;
+    margin: 0 auto;
+    height: 700px;
+  }
+  
+  .error {
+    font-size: 12px;
+    font-style: italic;
+    color: #c53624;
+    padding: 5px 5px;
+  }
+  ::placeholder{
+    font-style: italic;
+  }
