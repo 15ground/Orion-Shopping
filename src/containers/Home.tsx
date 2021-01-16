@@ -33,7 +33,7 @@ export default function Home() {
     <div>
       <Slider></Slider>
       <Menu />
-      {postList.map((item: any) => {
+      {data.map((item: any) => {
         return (
           <Product
             id={item.id}
