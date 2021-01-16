@@ -5,21 +5,23 @@ import Footer from "./components/Footer";
 import Home from "./containers/Home";
 import Add from "./containers/Add";
 import Cart from "./containers/Cart";
+import Edit from "./containers/Edit";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 const Index = () => <Home />;
 const AddPage = () => <Add />;
 const CartPage = () => <Cart />;
-
+const EditPage = () => <Edit/>
 function App() {
   return (
     <div>
-      <Header></Header>
       <Router>
+        <Header></Header>
         <Route path="/" exact component={Index} />
         <Route path="/add" component={AddPage} />
         <Route path="/cart" component={CartPage} />
+        <Route path="/edit" component={EditPage} />
+        <Footer></Footer>
       </Router>
-      <Footer></Footer>
     </div>
   );
 }

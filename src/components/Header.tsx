@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
-    <Router>
       <header>
         <div id="box">
           <div className="menubar">
@@ -45,6 +44,5 @@ export default function Header() {
           </div>
         </div>
       </header>
-    </Router>
   );
 }

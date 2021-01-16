@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faCartPlus} from "@fortawesome/free-solid-svg-icons";
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 export default function Menu() {
   return (
     <Router>
@@ -45,6 +45,11 @@ export default function Menu() {
               <li>
                 <Link to="/add" target="_blank">
                   Thêm sản phẩm
+                </Link>
+              </li>
+              <li>
+                <Link to="/edit" target="_blank">
+                  Sửa sản phẩm
                 </Link>
               </li>
               <li>

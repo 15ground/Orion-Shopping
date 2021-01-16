@@ -35,12 +35,17 @@
     flex-grow: 1;
     color: black;
     margin-right: 10px;
+    font-size: 16px;
+    color: black;
+    text-decoration: line-through;
 }
 .giaBan{
     height: fit-content;
     flex-grow: 1;
     color: brown;
     margin-right: 10px;
+    color: red;
+    font-weight: 600;
 }
 .soLuong{
     height: 30px;
@@ -63,16 +68,12 @@
     height: 25px;
     cursor: pointer;
 }
-.tongThanhTien{
-    color: red;
-    font-size: 20px;
-    font-weight: 600;
-}
 .thanhTien{
     margin-top: 10px;
     width: 300px;
-    margin-left: 990px;
+    margin-left: 930px;
     text-align: center;
+    font-weight: 700;
 }
 .tenSanPham{
     padding-left: 20px;
@@ -80,7 +81,8 @@
     color: black;
 }
 .text{
-    color: black;
+    color: red;
+    font-size: 18px;
 }
 .form{
 	width: 50%;
@@ -141,4 +143,8 @@ button{
 	padding: 2px;
 	background-color: #203365;
 	cursor: pointer;
+}
+.box{
+    width: 1600px;
+    height: 500px;
 }
